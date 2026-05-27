@@ -1,0 +1,148 @@
+/* Joshua McGregor - External CSS Stylesheet 2026 */
+
+/* 1. Universal Selector (*) */
+/* Applies basic box sizing reset across all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Element Selector (body) */
+/* Controls the base page layout, font, and background gradient colors */
+body {
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif; /* font property */
+    background: radial-gradient(circle, #f4f9f9, #ccedd2); 
+    color: #2b2d42; /* color property */
+    line-height: 1.6;
+    padding: 30px; /* padding property */
+}
+
+/* 3. ID Selector (#main-header) */
+/* Targets the specific identity header block across the pages */
+header {
+    text-align: center;
+    background-color: #ffffff; /* background-color property */
+    border: 2px solid #1b4332; /* border property */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px; /* margin property */
+}
+
+h1 {
+    color: #1b4332;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* 4. Descendant Selector (header p) */
+/* Targets only the paragraph elements that sit inside a header tag */
+header p {
+    font-style: italic; /* font-style property */
+    color: #40916c;
+    font-weight: bold;
+}
+
+/* 5. Class Selector (.content-box) */
+/* Styles the structural layout panels on each of your sub-pages */
+.content-box {
+    background-color: #ffffff;
+    border: 1px solid #d8f3dc;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Specific styling for navigation links */
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2d6a4f;
+    padding: 5px 10px;
+}
+
+/* 6. Pseudo-class Selector (nav a:hover) */
+/* Changes link colors interactively when a user hovers their mouse over them */
+nav a:hover {
+    color: #1b4332;
+    background-color: #d8f3dc;
+    border-radius: 4px;
+}
+
+/* List Formatting */
+ul {
+    list-style-type: square; /* list-style property */
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+/* Table Design Layouts */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #1b4332;
+}
+
+th, td {
+    border: 1px solid #b7e4c7;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #52b788;
+    color: white;
+}
+
+/* Form Design Layouts */
+form p {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #2d6a4f;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b7e4c7;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+fieldset {
+    border: 1px solid #b7e4c7;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b4332;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+    font-size: 0.9em;
+}

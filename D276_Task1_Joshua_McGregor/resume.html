@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joshua McGregor | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Joshua McGregor</h1>
+        <p>Information Technology Specialist (Class of 2026)</p>
+        <nav>
+            <!-- Navigation links to the other documents in your portfolio -->
+            <a href="resume.html">Résumé</a> | 
+            <a href="cover-letter.html">Cover Letter</a> | 
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+    </header>
+
+    <hr> <!-- Horizontal Rule element -->
+
+    <main>
+        <!-- Section 1: Contact & Profile -->
+        <section>
+            <h2>Contact Information &amp; Overview</h2>
+            <article>
+                <p>
+                    <strong>Email:</strong> 
+                    <span>Joshmcgregor2006@gmail.com</span>
+                    <br> <!-- Line break element -->
+                    <em>Availability: Immediate open market placement in 2026.</em>
+                </p>
+                <p>Highly motivated IT student specializing in foundational web development, systems architecture, and technical communication. Ready to transition academic knowledge into an impactful technical role.</p>
+            </article>
+        </section>
+
+        <!-- Section 2: Core Skills List -->
+        <section>
+            <h2>Technical Skill Set</h2>
+            <ul> <!-- Unordered list element -->
+                <li>Responsive Web Design (HTML5 &amp; CSS3)</li>
+                <li>Scripting &amp; Automation Basics</li>
+                <li>Technical Documentation &amp; Incident Briefing</li>
+            </ul>
+        </section>
+
+        <!-- Section 3: Professional History Table -->
+        <section>
+            <h2>Employment &amp; Project History</h2>
+            <table>
+                <caption>Milestone Activities &amp; Roles (2025 - 2026)</caption>
+                <!-- Table with exactly 4 columns and 3 rows (1 header row + 2 data rows) -->
+                <tr>
+                    <th>Designation</th>
+                    <th>Organization / Platform</th>
+                    <th>Timeline</th>
+                    <th>Primary Operational Focus</th>
+                </tr>
+                <tr>
+                    <td>Junior IT Consultant</td>
+                    <td>Apex Tech Solutions</td>
+                    <td>2026</td>
+                    <td>Web asset deployment and script verification.</td>
+                </tr>
+                <tr>
+                    <td>Information Systems Intern</td>
+                    <td>WGU Infrastructure Systems</td>
+                    <td>2025</td>
+                    <td>Assisted with network auditing and site metrics.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Section 4: External Resource Link -->
+        <section>
+            <h3>Professional Verification</h3>
+            <p>To verify academic credentials, please visit the official Western Governors University portal via this <a href="https://wgu.edu" target="_blank">hyperlink to WGU</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Div element containing the JavaScript populated date -->
+        <div id="timestamp-container"></div>
+        <p>&copy; 2026 Joshua McGregor. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Interactive Scripting Block -->
+    <script>
+        // Inline JavaScript to populate the date within the specified div container
+        const currentSystemDate = new Date().toLocaleDateString();
+        document.getElementById("timestamp-container").innerHTML = "Document Generated On: " + currentSystemDate;
+
+        // Inline JavaScript to write an appropriate message to the developer console
+        console.log("System Alert: Joshua McGregor's résumé portfolio page has initialized successfully.");
+    </script>
+
+</body>
+</html>
